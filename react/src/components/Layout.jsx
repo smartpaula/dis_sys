@@ -8,6 +8,12 @@ const Layout = () => {
                 <li>
                     <Link to="/">Home</Link>
                 </li>
+                <li>
+                    <Link to="/get">Get All Users</Link>
+                </li>
+                <li>
+                    <Link to="/post">Post Users</Link>
+                </li>
 
             </ul>
         </nav>
