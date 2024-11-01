@@ -24,7 +24,7 @@ const PostUser = () => {
             return alert(err)
         });
     };
-};
+
 
 const onChangeForm = (e) => {
     if(e.target.name === 'name') {
@@ -65,5 +65,5 @@ return (
         </div>
     </div>
 );
-
+};
 export default PostUser;
